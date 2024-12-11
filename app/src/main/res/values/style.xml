@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Boutons Blancs -->
+    <style name="ButtonWhite">
+        <item name="android:background">@drawable/button_black</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+</resources>

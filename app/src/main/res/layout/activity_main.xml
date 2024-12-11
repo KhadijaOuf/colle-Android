@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="C"
+            style="@style/ButtonWhite"
+            android:id="@+id/key_c"/>
+
+        <Button
+            android:id="@+id/key_d"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/ButtonWhite"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/key_e"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/ButtonWhite"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/key_f"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/ButtonWhite"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/key_g"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            style="@style/ButtonWhite"
+            android:text="G" />
+        <Button
+            android:id="@+id/key_a"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            style="@style/ButtonWhite"
+            android:layout_weight="1"
+            android:text="A"/>
+
+        <Button
+            android:id="@+id/key_b"
+            style="@style/ButtonWhite"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="C" />
+    </LinearLayout>
+
+
+
+    <!-- Section des touches noires (dièses) -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="C#"
+            android:id="@+id/key_c_sharp"
+            style=""/>
+
+        <Button
+            android:id="@+id/key_d_sharp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="D#"
+            />
+
+        <Button
+            android:id="@+id/key_e_sharp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="E#"
+            />
+
+        <Button
+            android:id="@+id/key_f_sharp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="F#"
+            />
+
+        <Button
+            android:id="@+id/key_g_sharp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="G#"
+            />
+        <Button
+            android:id="@+id/key_a_sharp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="A#"
+            />
+
+        <Button
+            android:id="@+id/key_b_sharp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="C#"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+

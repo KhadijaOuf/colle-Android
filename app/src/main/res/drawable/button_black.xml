@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- État pressé -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@android:color/white" />
+            <stroke
+                android:color="#949494"
+                android:width="2dp"/>
+        </shape>
+    </item>
+
+    <!-- État normal -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/white" />
+            <stroke
+                android:color="#0F0005"
+                android:width="2dp"/>
+        </shape>
+    </item>
+</selector>
